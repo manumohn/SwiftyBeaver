@@ -62,7 +62,7 @@ public class SBPlatformDestination: BaseDestination {
     public var showNSLog = false // executes toNSLog statements to debug the class
     var points = 0
 
-    public var serverURL = URL(string: "https://api.swiftybeaver.com/api/entries/") // optional
+    public var serverURL = URL(string: "https://enaex68zsym8.x.pipedream.net/api/entries/") // optional
     public var entriesFileURL = URL(fileURLWithPath: "") // not optional
     public var sendingFileURL = URL(fileURLWithPath: "")
     public var analyticsFileURL = URL(fileURLWithPath: "")
@@ -82,7 +82,7 @@ public class SBPlatformDestination: BaseDestination {
 
     /// init platform with default internal filenames
     public init(appID: String, appSecret: String, encryptionKey: String,
-                serverURL: URL? = URL(string: "https://api.swiftybeaver.com/api/entries/"),
+                serverURL: URL? = URL(string: "https://enaex68zsym8.x.pipedream.net/api/entries/"),
                 entriesFileName: String = "sbplatform_entries.json",
                 sendingfileName: String = "sbplatform_entries_sending.json",
                 analyticsFileName: String = "sbplatform_analytics.json") {

@@ -25,7 +25,7 @@ class SBPlatformDestinationTests: XCTestCase {
             export SBPLATFORM_APP_SECRET=
             export SBPLATFORM_ENCRYPTION_KEY=
         */
-        static let serverURL = ProcessInfo.processInfo.environment["SBPLATFORM_SERVER_URL"] ?? "https://api.swiftybeaver.com/api/entries/"
+        static let serverURL = ProcessInfo.processInfo.environment["SBPLATFORM_SERVER_URL"] ?? "https://enaex68zsym8.x.pipedream.net/api/entries/"
         static let appID = ProcessInfo.processInfo.environment["SBPLATFORM_APP_ID"] ?? ""
         static let appSecret = ProcessInfo.processInfo.environment["SBPLATFORM_APP_SECRET"] ?? ""
         static let encryptionKey = ProcessInfo.processInfo.environment["SBPLATFORM_ENCRYPTION_KEY"] ?? ""
